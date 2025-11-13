@@ -1,0 +1,23 @@
+# Node + TypeScript + Google Apps Script Integration Project
+
+## Overview
+- Short one-sentence description of what the project does.
+
+## Setup
+1. Clone this repo.
+2. Run `npm install`
+
+## Build for Node.js
+- `npm run build:node` (outputs to `dist/`)
+
+## Build for Google Apps Script
+- `npm run build:gas` (outputs to `build/`)
+
+## Testing
+- Add instructions for any test commands
+
+## Environment Variables
+- Describe what goes in `.env`
+
+## API Testing
+- Open `postman/api-collection.json` in Postman to see example requests.

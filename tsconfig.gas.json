@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "none",
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "types": []
+  },
+  "include": ["src/gas-entry.ts", "src/utils.ts"]
+}
