@@ -1,0 +1,20 @@
+name: Build and Test
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: npm install
+      - name: Build Node target
+        run: npm run build:node
+      - name: Build GAS target
+        run: npm run build:gas
+      # Optionally, add testing below if you set up Vitest
+      #- name: Run tests
+      #  run: npm test
